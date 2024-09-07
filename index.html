@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/normalize.css">
+  <link rel="stylesheet" href="lib/app.css">
+  <link rel="stylesheet" href="lib/vs.css">
+  <script src="lib/marked.js"></script>
+  <script src="lib/highlight.pack.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="lib/app.js"></script>
+  <title>Markdown Reader</title>
+</head>
+
+<body>
+  <nav id="sidemenu">
+    <div id="togglemenu">菜<br>单<br><span>&gt;</span><span>&lt;</span></div>
+    <!-- 以下内容需手动填入 -->
+    <h2><a href="README.md">首页</a></h2>
+    <h2>安装与设置</h2>
+    <div>
+      <a href="md\quick start\quick start.md" >快速启动</a>
+      <a href="md\Install\install.md">安装说明</a>
+      <a href="md\import\local_import.md">本地数据批量导入</a>
+    </div>
+    <h2>数据标注</h2>
+    <div>
+      <a href="md\labels\label_interface.md">设置标签格式</a>
+      <a href="md\labels\labeling.md">进行标注</a>
+      <a href="md\labels\import_pre_ann.md">导入预标注</a>
+    </div>
+    <h2>高级功能</h2>
+    <div>
+      <a href="md\teamwork\teamwork.md">团队分工合作</a>
+      <a href="md\labels\labeling.md">AI辅助</a>
+    </div>
+    <!-- 手动填入区域结束 -->
+  </nav>
+  <div id="tools"><div id="outline">本页索引</div>></div>
+  <main>
+    <article id="md"></article>
+  </main>
+</body>
+
+</html>

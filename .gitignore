@@ -1,0 +1,4 @@
+server/access_log
+server/agent_log
+server/error_log
+server/referer_log
